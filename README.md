@@ -1,8 +1,11 @@
+
 <div align="center">
-  <img src="https://github.com/UniSoftORG/scripts/assets/102993606/22fa58b6-a04e-4bd4-912d-653cfda22281">
-</div>
 
 # UniSoft Utils
+
+![unisoft-logo.png](unisoft-logo.png)
+
+</div>
 
 ## About
 
