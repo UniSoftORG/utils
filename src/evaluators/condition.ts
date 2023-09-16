@@ -1,5 +1,5 @@
 import { Conditional, ValueReplacement } from "../../@utils";
-import { createCondition, mapArrayValues } from "../helpers";
+import {createCondition, mapObjectValues} from "../helpers";
 import { evaluateReplacement } from "./string";
 import { getValue } from "../getters";
 import { setNestedValue } from "../setters";
@@ -55,7 +55,7 @@ export const evaluateConditions = <
     Array.isArray(conditions) &&
       conditions.forEach((attribute: any) => {
         if (valueKey && typeof attribute === "object" && mainObj) {
-          mapArrayValues(attribute, (conditions: any) => {
+          mapObjectValues(attribute, (conditions: any) => {
             conditions.forEach((condition: any) => {
               if (evaluateCondition(condition.condition, mainObj ?? {}))
                 conditional += ` ${condition.value}`;
