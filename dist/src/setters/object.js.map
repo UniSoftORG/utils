@@ -1,1 +1,0 @@
-{"version":3,"file":"object.js","sourceRoot":"","sources":["../../../src/setters/object.ts"],"names":[],"mappings":";;;AAAA;;;;;;GAMG;AACI,IAAM,UAAU,GAAG,UACxB,MAAsC,EACtC,QAAiB,EACjB,MAA0B;IAE1B,IAAI,MAAM,CAAC,QAAQ,CAAC,KAAK,SAAS,EAAE;QAClC,MAAM,CAAC,QAAQ,CAAC,GAAG,MAAM,CAAC,QAAQ,CAAC,CAAC;KACrC;AACH,CAAC,CAAC;AARW,QAAA,UAAU,cAQrB"}

@@ -6,10 +6,7 @@
     "module": "CommonJS",
     "baseUrl": "./",
     "sourceMap": true,
-    "strict": true,
-    "paths": {
-      "@utils": ["@utils/index.ts"]
-    }
+    "strict": true
   },
   "exclude": [
     "node_modules"

@@ -2,7 +2,7 @@
   "name": "unisoft-utils",
   "version": "1.0.1",
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "docs": "typedoc --out docs src",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -17,8 +17,12 @@
   ],
   "author": "Rade Ilijev",
   "license": "MIT",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/UniSoftORG/utils",
   "bugs": {
     "url": "https://github.com/UniSoftORG/utils/issues"
@@ -36,6 +40,7 @@
     "prettier": "^3.0.3",
     "ts-jest": "^29.1.1",
     "ts-loader": "^9.4.4",
+    "tsup": "^7.2.0",
     "typedoc": "^0.25.1",
     "typescript": "^5.2.2"
   }

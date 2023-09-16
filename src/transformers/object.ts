@@ -1,4 +1,17 @@
 /**
+ * Merge two objects
+ *
+ * @param oldProps
+ * @param newProps
+ */
+export const mergeObjects = (oldProps: any, newProps: any) => {
+  return {
+    ...oldProps,
+    ...newProps
+  };
+};
+
+/**
  * Deep merge two objects
  *
  * @param {T} target - Target object.
